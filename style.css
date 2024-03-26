@@ -6,8 +6,10 @@ body{
 }
 header{
     width: 100%;
-    height: 50px;
-    position: relative;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: white;
 }
 header div{
     float: left;
@@ -44,13 +46,14 @@ header .nav ul li a:hover{
     color: #7f97ff;
 }
 /*Section 1 Start*/
-section{
+.section1{
     background-color: #f9f9ff;
     width: 100%;
-    height: 750px;
+    height: 665px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 80px;
 }
 .half1, .half2{
     width: 50%;
@@ -61,6 +64,7 @@ section{
 }
 .half2{
     padding-right: 160px;
+    margin-top: 50px;
 }
 .half2 img{
     max-width: 100%;
@@ -87,4 +91,71 @@ section{
     box-shadow: 5px 10px 30px rgb(130, 147, 255, 0.5);
     transition: all 0.5s ease-in 0.1s;
     outline: none;
+}
+/*Section 1 End*/
+
+/*Section 2 Start*/
+.section2{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section2 div{
+    width:40% ;
+    margin: 0 auto;
+}
+.section2 img{
+    width: 90%;
+    height: auto;
+}
+.section2 .img2{
+    padding-left: 150px;
+}
+.text2 h3{
+    font-weight: normal;
+    color: rgba(0,0,0, 0.7);
+    font: size 15px;
+}
+.text2 h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.text2 p{
+    font-size: 16px;
+    color: rgba(0,0,0, 0.6);
+    width: 88%;
+}
+.text2 input{
+    font-size: 20px;
+    padding: 12px 16px;
+    outline: none;
+    color: white;
+    background-color: #8293ff;
+    border: none;
+
+}
+.text2 input:hover{
+    box-shadow: 5px 10px 30px rgb(130, 147, 255, 0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+}
+/*Section 2 End*/
+/*Section 3 Start*/
+.section3{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.firsttext h1{
+    font-size: 40px;
+    line-height: 10px;
+}
+.firsttext p{
+    width: 670px;
+    color: rgba(0,0,0, 0.6);
+    margin: 0 auto;
 }
