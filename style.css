@@ -221,8 +221,32 @@ header .nav ul li a:hover{
     font-size: 45px;
     line-height: 0;
 }
-.section4 h1,p{
+.section4 h1{
     text-align: center;
     color: white;
+}
+.section4 p{
+    text-align: center;
+    color: white;
+}
+/*Section 4 End*/
+/*Protfolio part Start*/
+.section5{
+    width: 100%;
+    box-sizing: border-box;
+}
+.section5 .text3{
+    text-align: center;
 
 }
+.section5 .text3 h1{
+    font-size: 40px;
+    color: rgba(0,0,0, 0.9);
+}
+.section5 .text3 p{
+    color: rgba(0,0,0, 0.7);
+    margin-top: -20px;
+    margin-bottom:30px;
+}
+
+/*Protfolio part End*/
